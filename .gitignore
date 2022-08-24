@@ -1,0 +1,15 @@
+*node_modules
+*package-lock.json
+.idea
+
+client/.next
+app/uploads/!avatar.png
+app/uploads/!placeholder-bg.png
+app/uploads/*
+
+# For Visual Studio Code
+.vscode/*
+# Local History for Visual Studio Code
+.history/
+# Built Visual Studio Code Extensions
+*.vsix
