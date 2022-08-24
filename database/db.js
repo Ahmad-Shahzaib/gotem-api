@@ -6,10 +6,7 @@ module.exports = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process
 	dialectOptions: {
 		charset: 'utf8',
 	},
-	ssl: {
-		require: true,
-		rejectUnauthorized: false, // <<<<<<< YOU NEED THIS
-	},
+	ssl: false,
 	host: process.env.DB_HOST,
 	port: +process.env.DB_PORT,
 	logging: (msg) => logger.info(msg),
