@@ -10,7 +10,7 @@ const errorHandler = require('./middleware/logErrors.middleware');
 const logErrors = require('./middleware/errorHandling.middleware');
 const filePathMiddleware = require('./middleware/filePath.middleware');
 const logger = require('./utils/logger');
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 
 const server = express();
 server.use(cors());
